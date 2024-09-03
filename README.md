@@ -16,3 +16,37 @@ The application integrates with CoinAPI to fetch real-time cryptocurrency data. 
 
 GET /v1/assets: Provides information about all available cryptocurrencies.
 GET /v1/assets/{asset_id}: Provides details about a specific cryptocurrency.
+
+## Usage
+Client Commands
+### Register
+
+register <username> <password>
+
+### Login
+
+login <username> <password>
+
+### Deposit Money
+
+deposit-money <amount>
+
+### List Offerings
+
+list-offerings
+
+### Buy Crypto
+
+buy --offering=<offering_code> --money=<amount>
+
+### Sell Crypto
+
+sell --offering=<offering_code>
+
+### Get Wallet Summary
+
+get-wallet-summary
+
+### Get Wallet Overall Summary
+
+get-wallet-overall-summary

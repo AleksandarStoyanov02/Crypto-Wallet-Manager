@@ -2,6 +2,7 @@
 ## Overview
 The Cryptocurrency Wallet Manager is a console-based client-server application designed to simulate a personal cryptocurrency wallet. It allows users to manage their cryptocurrency investments with functionalities such as registration, login, depositing money, buying and selling cryptocurrencies, and obtaining wallet summaries.
 
+The application works with the free public REST API - [CoinAPI](https://www.coinapi.io).
 ## Features
 ### Register: Create a new user account with a username and password. Passwords are securely stored.
 ### Login: Access the wallet by logging in with a registered username and password.

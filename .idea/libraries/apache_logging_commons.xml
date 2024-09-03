@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="apache.logging.commons" type="repository">
+    <properties maven-id="apache-logging:commons-logging:1.1.0.jboss" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/apache-logging/commons-logging/1.1.0.jboss/commons-logging-1.1.0.jboss.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

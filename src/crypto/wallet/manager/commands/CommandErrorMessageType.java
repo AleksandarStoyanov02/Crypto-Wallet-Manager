@@ -1,7 +1,6 @@
 package crypto.wallet.manager.commands;
 
 public enum CommandErrorMessageType {
-    ACCOUNT_ALREADY_LOGGED_IN("Account is already logged in."),
     ACCOUNT_EXISTS("Account already exists"),
     ALREADY_LOGGED_IN("You are already logged in."),
     ALREADY_LOGGED_IN_REGISTER_MESSAGE("Cannot make a new account while already logged in."),

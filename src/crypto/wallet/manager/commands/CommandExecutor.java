@@ -14,7 +14,6 @@ import java.nio.channels.SelectionKey;
 import static crypto.wallet.manager.commands.Command.REQUIRED_ARGUMENTS_FOR_DEPOSIT_CRYPTO;
 import static crypto.wallet.manager.commands.Command.REQUIRED_ARGUMENTS_FOR_LOGIN_REGISTER_BUY_CRYPTO;
 import static crypto.wallet.manager.commands.Command.REQUIRED_ARGUMENTS_FOR_SELLING_CRYPTO;
-import static crypto.wallet.manager.commands.CommandErrorMessageType.ACCOUNT_ALREADY_LOGGED_IN;
 import static crypto.wallet.manager.commands.CommandErrorMessageType.ACCOUNT_EXISTS;
 import static crypto.wallet.manager.commands.CommandErrorMessageType.ALREADY_LOGGED_IN;
 import static crypto.wallet.manager.commands.CommandErrorMessageType.ALREADY_LOGGED_IN_REGISTER_MESSAGE;
@@ -113,7 +112,7 @@ public class CommandExecutor {
         } catch (AccountDoesNotExistException e) {
             return INVALID_LOGIN.getMessage();
         } catch (AccountIsAlreadyLoggedInException e) {
-            return ACCOUNT_ALREADY_LOGGED_IN.getMessage();
+            return ALREADY_LOGGED_IN.getMessage();
         } catch (IllegalArgumentException e) {
             return PROBLEM_WHILE_LOGGING_IN.getMessage();
         }
